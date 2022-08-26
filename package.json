@@ -1,0 +1,20 @@
+{
+  "name": "@agacraft/functions",
+  "version": "1.0.0",
+  "description": "library by AgaCraft for node.js",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdrianCraft07/functions.git"
+  },
+  "keywords": ["library", "functions", "node", "aga", "aga-craft"],
+  "author": "AgaCraft",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdrianCraft07/functions/issues"
+  },
+  "dependencies": {
+    "archiver": "5.3.0"
+  },
+  "homepage": "https://github.com/AdrianCraft07/functions#readme"
+}
