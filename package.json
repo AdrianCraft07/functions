@@ -1,13 +1,13 @@
 {
   "name": "@agacraft/functions",
   "version": "1.0.0",
-  "description": "library by AgaCraft for node.js",
+  "description": "functions by AgaCraft for node.js",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AdrianCraft07/functions.git"
   },
-  "keywords": ["library", "functions", "node", "aga", "aga-craft"],
+  "keywords": ["library", "terminal", "colors", "functions", "node", "aga", "aga-craft"],
   "author": "AgaCraft",
   "license": "ISC",
   "bugs": {
