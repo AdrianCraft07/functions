@@ -14,7 +14,7 @@
     "url": "https://github.com/AdrianCraft07/functions/issues"
   },
   "dependencies": {
-    "@agacraft/extension": "^1.0.0"
+    "@agacraft/extensions": "^1.0.0"
   },
   "homepage": "https://github.com/AdrianCraft07/functions#readme"
 }
