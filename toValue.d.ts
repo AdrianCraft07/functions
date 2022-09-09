@@ -1,2 +1,2 @@
-declare function toValue(value: String): String | Boolean | Number;
-export = toValue;
+declare const _default: (value: string) => string | number | boolean;
+export = _default;

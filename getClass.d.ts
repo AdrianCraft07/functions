@@ -1,4 +1,6 @@
-declare function getClass(obj: any): Function | undefined;
-getClass.getName = (obj: any) => String | undefined;
-getClass.isClass = (obj: any) => Boolean;
+declare function getClass(obj: any): any;
+declare namespace getClass {
+    var getName: (obj: string) => any;
+    var isClass: (obj?: () => void) => boolean;
+}
 export = getClass;

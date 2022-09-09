@@ -1,4 +1,7 @@
-declare function getParam(param: String): any;
-getParam.string = (value: String) => String;
-getParam.toValue = (value: String) => Boolean | Number | String;
-export = getParam
+import '@agacraft/extension';
+declare function getParam(param: string): string | number | boolean;
+declare namespace getParam {
+    var toValue: (value: string) => string | number | boolean;
+    var string: (value: string | number | boolean) => string | number | boolean;
+}
+export = getParam;

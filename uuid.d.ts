@@ -1,2 +1,2 @@
-declare function uuid(): String;
-export = uuid
+declare const _default: () => string;
+export = _default;
